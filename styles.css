@@ -28,7 +28,6 @@ body {
   font-size: 1.6rem;
   margin-bottom: 2.5rem;
   position: relative;
-  /* font-weight: 500; */
 }
 
 .quote-box h2::after {
@@ -132,7 +131,6 @@ span::before {
   display: none;
   font-size: 1.2rem;
   margin-top: 1.5rem;
-  /* margin-bottom: 1.5rem; */
 }
 
 @media (max-width: 445px) {

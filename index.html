@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quote Generator using JS</title>
 
-    <!-- External CSS file linking  -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="quote-box">
-      <h2>Quote of the day!</h2>
-      <blockquote id="quote">Loading...</blockquote>
-      <span id="author">Loading...</span>
-      <div class="btn">
-        <button class="new-quote" onclick="getQuote(apiURL)">New Quote</button>
-        <button class="copy" onclick="copyQuote()">Copy</button>
-      </div>
-      <div class="copied">Copied to clipboard!</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quote Generator using JS</title>
+
+  <!-- External CSS file linking  -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="quote-box">
+    <h2>Quote of the day!</h2>
+    <blockquote id="quote">Loading...</blockquote>
+    <span id="author">Loading...</span>
+    <div class="btn">
+      <button class="new-quote" onclick="getQuote(apiURL)">New Quote</button>
+      <button class="copy" onclick="copyQuote()">Copy</button>
     </div>
+    <div class="copied">Copied to clipboard!</div>
+  </div>
 
-    <script src="main.js"></script>
+  <!-- External JS file linking -->
+  <script src="main.js"></script>
 
-    <script
-      src="https://kit.fontawesome.com/9838733d2a.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- font awesome linking  -->
+  <script src="https://kit.fontawesome.com/9838733d2a.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
