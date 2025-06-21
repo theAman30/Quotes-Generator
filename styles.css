@@ -150,7 +150,6 @@ span::before {
   .copied {
     display: none;
     font-size: 1.2rem;
-    /* margin-bottom: 2rem; */
     margin-top: 1.5rem;
   }
 
